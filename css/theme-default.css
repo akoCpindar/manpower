@@ -1,0 +1,361 @@
+/** BASE IMPORTS **/
+/*blue*/
+/*dirty white*/
+/* line 1, C:/Users/Shag/Desktop/manpower ui/scss/_images.scss */
+.logolabel {
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* line 6, C:/Users/Shag/Desktop/manpower ui/scss/_images.scss */
+.nav-logo {
+  width: 18%;
+  margin: -15px 0 0 -10px;
+  background: none;
+}
+
+/* line 12, C:/Users/Shag/Desktop/manpower ui/scss/_images.scss */
+.panel-logo {
+  width: 30%;
+  margin-left: 33%;
+}
+
+/* line 17, C:/Users/Shag/Desktop/manpower ui/scss/_images.scss */
+.panel-body-logo {
+  width: 40%;
+}
+
+/* line 1, C:/Users/Shag/Desktop/manpower ui/scss/_normalize.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+/* line 5, C:/Users/Shag/Desktop/manpower ui/scss/_normalize.scss */
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, C:/Users/Shag/Desktop/manpower ui/scss/_normalize.scss */
+body {
+  background: #006668;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/** GLYPHICONS STYLES **/
+/* enable absolute positioning */
+/* line 3, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.inner-addon {
+  position: relative;
+  color: #000;
+}
+
+/* style icon */
+/* line 9, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  background: #D3D3D3;
+  border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* align icon */
+/* line 19, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.left-addon .glyphicon {
+  left: 1px;
+}
+
+/* add padding  */
+/* line 22, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.left-addon input {
+  padding-left: 40px;
+}
+
+/*Index: Navigation Bar*/
+/* line 25, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
+
+/**Search Box Style**/
+/* line 31, C:/Users/Shag/Desktop/manpower ui/scss/_base.scss */
+.search-wrapper {
+  margin-bottom: 20px;
+}
+
+/** LAYOUT IMPORTS **/
+/**Admin Horizontal Navigation Bar**/
+/* line 2, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.navbar-custom {
+  background: #000;
+  width: 100%;
+  height: 40px;
+}
+
+/* line 7, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.navbar-custom a {
+  color: #fff;
+}
+
+/* line 11, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.navbar-custom .dropdown a:hover {
+  background: #1F1F1F;
+}
+
+/* line 16, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu {
+  overflow: auto;
+  font-size: 16px;
+  background-color: #000;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  color: #fff;
+  margin: 50px 0 0 -20px;
+}
+
+/* line 27, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu ul,
+.nav-side-menu li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+/* line 36, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu ul .collapsed .arrow:before,
+.nav-side-menu li .collapsed .arrow:before {
+  font-family: FontAwesome;
+  content: "\f053";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+}
+
+/* line 48, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+  font-family: FontAwesome;
+  content: "\f078";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+}
+
+/* line 59, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+  border: none;
+  line-height: 40px;
+  margin-left: 50px;
+}
+
+/* line 66, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+/* line 75, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 80, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu li a i {
+  padding-left: 10px;
+  width: 20px;
+  padding-right: 20px;
+}
+
+/* line 86, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+.nav-side-menu li:hover {
+  border-left: 3px solid #d19b3d;
+  background-color: #434343;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@media (max-width: 767px) {
+  /* line 97, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* line 103, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+  /* line 117, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+}
+
+@media (min-width: 767px) {
+  /* line 126, C:/Users/Shag/Desktop/manpower ui/scss/_nav.scss */
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+.nav-side-menu .menu-list ul li a{
+	width: 100%;
+}
+	
+
+/** MODULE IMPORTS **/
+/**Index: Carousel**/
+/* line 2, C:/Users/Shag/Desktop/manpower ui/scss/_sections.scss */
+.carousel .item {
+  height: 450px;
+}
+
+/* line 6, C:/Users/Shag/Desktop/manpower ui/scss/_sections.scss */
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 450px;
+}
+
+/**Admin: Login Style **/
+/* line 2, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.panel-wrapper {
+  background: #f1f2f2;
+  width: 28%;
+  height: 350px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 120px auto;
+}
+
+/* line 11, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.panel-custom {
+  border: 0;
+}
+
+/* line 15, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.panel-body-custom input[type="text"], .panel-body-custom input[type="email"], .panel-body-custom input[type="password"] {
+  margin: 30px 0 -10px 0;
+  height: 36px;
+  border: 1px solid none;
+  font-size: 14px;
+  color: #000;
+}
+
+/* line 23, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content {
+  margin: 60px 0 0 21.5%;
+  background: none;
+  height: 100px;
+}
+
+/* line 28, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default {
+  width: 120%;
+}
+
+/* line 31, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default .heading-custom {
+  height: 80px;
+}
+
+/* line 34, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default .heading-custom h3 {
+  margin-top: 20px;
+}
+
+/* line 39, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default .body-custom label {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* line 44, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default .body-custom h2 {
+  margin-top: 30px;
+  color: #006668;
+}
+
+/* line 49, C:/Users/Shag/Desktop/manpower ui/scss/_panels.scss */
+.page-content .panel-default .body-custom p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/**Admin: Login Style**/
+/* line 2, C:/Users/Shag/Desktop/manpower ui/scss/_buttons.scss */
+.btn-login {
+  background-color: #006668;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  height: auto;
+  font-weight: 700;
+  padding: 8px 0;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+/* line 14, C:/Users/Shag/Desktop/manpower ui/scss/_buttons.scss */
+.btn-login:hover,
+.btn-login:focus,
+.btn-submit:hover,
+.btn-submit:focus {
+  color: #fff;
+  background-color: #00999c;
+}
+
+/* line 22, C:/Users/Shag/Desktop/manpower ui/scss/_buttons.scss */
+.btn-submit {
+  background-color: #006668;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=../css/theme-default.map */
